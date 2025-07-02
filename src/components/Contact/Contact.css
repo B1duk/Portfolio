@@ -1,0 +1,78 @@
+.form-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.form-content{
+    width: 100%;
+    max-width: 950px;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 428px;
+    gap: 20px;
+}
+
+.form input{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    width: 100%;
+    max-width: 428px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.form input::placeholder{
+    font-family: "IBM Plex Mono", monospace;
+     font-weight: 300;
+     font-style: normal;
+     font-size: 17px;
+     padding-left: 0.5em;
+}
+
+.form button{
+     background-color: transparent;
+    border: 1px solid #FFFFFF;
+    width: 100%;
+    max-width: 222px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.links{
+    border-bottom: 1px solid #9C9C9C;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.links div{
+    display: flex;
+    gap:30px;
+}
+
+.links p{
+    font-size: 19px;
+}
+
+.links div p{
+    font-size: 18px;
+}
+
+.links div a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+@media(max-width: 535px){
+.form-content{
+   display: flex;
+   flex-direction: column;
+}
+}

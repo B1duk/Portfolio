@@ -1,0 +1,41 @@
+
+.project-container{
+     width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.projects-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-main-title {
+   font-size: 34px;
+    margin: 0;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+    font-style: normal;
+    width: 100%;
+    text-align: center;
+}
+
+.projects-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.projects-content a {
+    color: #9a9a9a;
+    text-decoration: none;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.projects-content a:hover {
+    text-decoration: underline;
+}
