@@ -1,4 +1,4 @@
-/* Общие стили контейнера */
+
 .skills-container {
     width: 100%;
     display: flex;
@@ -24,7 +24,6 @@
     font-style: normal;
 }
 
-/* Flex сетка */
 .skills-flex-container {
     width: 100%;
     display: flex;
@@ -49,23 +48,10 @@
     transition: transform 0.3s ease;
 }
 
-/* Эффекты при наведении */
 .skill-card:hover {
     transform: scale(1.05);
 }
 
-/* Адаптивность */
-/* @media (max-width: 900px) {
-    .skill-card {
-        width: 160px;
-        height: 100px;
-    }
-
-    .skills-flex-container {
-        gap:50px;
-       row-gap: 70px;
-    }
-} */
 
 @media (max-width: 768px) {
     .skills-flex-container {
@@ -81,10 +67,6 @@
 @media (max-width: 480px) {
     .skills-title {
         font-size: 28px;
-    }
-    .skills-flex-container {
-        /* gap:20px; */
-        /* row-gap: 10px; */
     }
     .skill-image {
         width: 200px;

@@ -5,21 +5,22 @@ import react from '../../assets/React.png';
 import html from '../../assets/html.png';
 import css from '../../assets/css.png';
 import js from '../../assets/js.png';
-import onec from '../../assets/onec.png';
-import csharp from '../../assets/csharp.png';
 import figma from '../../assets/figma.png';
 import sql from '../../assets/sql.png';
-
+import styled from '../../assets/styled.jpg'
+import git from '../../assets/git.png'
+import supabase from '../../assets/supabase.png'
 export const Skills = () => {
   const skills = [
     { img: react, name: 'react' },
     { img: html, name: 'html' },
     { img: css, name: 'css' },
     { img: js, name: 'js' },
-    { img: onec, name: 'onec' },
-    { img: csharp, name: 'csharp' },
     { img: figma, name: 'figma' },
-    { img: sql, name: 'sql' }
+    { img: sql, name: 'sql' },
+    {img: styled, name:'styled-components'},
+    {img: git, name:'git'},
+    {img: supabase, name: 'supabase'}
   ];
 
   return (
